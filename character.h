@@ -1,3 +1,5 @@
+#include <string>
+
 class Character {
     private:
         int number;
@@ -9,7 +11,7 @@ class Character {
     public:
         Character();
         Character(int number, string name, int agility, int focus, int luck);
-        int getNumber() const;
+        int getNumber();
         string getName() const;
         int getAgility() const;
         int getFocus() const;
