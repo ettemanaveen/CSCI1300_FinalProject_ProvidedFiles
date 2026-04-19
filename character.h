@@ -1,3 +1,5 @@
+#include <string>
+
 class Character {
     private:
         int number;

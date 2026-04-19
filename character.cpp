@@ -1,1 +1,5 @@
-/* TODO: Initialize character.cpp */
+#include "character.h"
+
+int Character::getNumber(){
+    return number;
+}
